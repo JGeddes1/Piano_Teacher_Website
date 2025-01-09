@@ -52,8 +52,8 @@ const TestimonialsCarousel = () => {
   };
 
   return (
-    <section className="bg-color-white py-12">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative flex flex-col md:flex-row mt-5 font-playfair bg-gray-50 rounded-lg p-6 md:p-10 shadow-md mx-auto w-5/6">
+      <div className="max-w-full  mx-auto px-6">
         <h2 className="text-3xl font-bold text-center text-gray-700 mb-8">
           What My Students Say
         </h2>
@@ -62,7 +62,7 @@ const TestimonialsCarousel = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-color-navy rounded-lg shadow-lg p-6 flex flex-col items-center text-center space-y-4"
+              className="bg-gray-50 p-6 flex flex-col items-center text-center space-y-4"
             >
               {/* Profile Image */}
               <div className="flex justify-center">
@@ -74,7 +74,7 @@ const TestimonialsCarousel = () => {
               </div>
 
               {/* Name */}
-              <h3 className="text-lg font-semibold text-white">
+              <h3 className="text-lg font-semibold font-playfair text-color-navy">
                 {testimonial.name}
               </h3>
 
@@ -93,7 +93,9 @@ const TestimonialsCarousel = () => {
               </div>
 
               {/* Feedback */}
-              <p className="text-white text-sm">{testimonial.feedback}</p>
+              <p className="text-color-navy font-playfair text-sm">
+                {testimonial.feedback}
+              </p>
             </div>
           ))}
         </Slider>

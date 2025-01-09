@@ -4,7 +4,7 @@ import { FaHome, FaLaptop } from "react-icons/fa"; // Import icons from react-ic
 const Tuition = () => {
   return (
     <section className="bg-white py-10 px-5">
-      <div className="max-w-6xl mx-auto">
+      <div className="w-5/6  mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-10">
           Piano Tuition Costs

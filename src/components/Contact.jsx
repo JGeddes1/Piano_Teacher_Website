@@ -49,10 +49,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-12 px-6 bg-gray-100">
+    <section id="contact" className="py-12 px-6 bg-white">
       <div className="container mx-auto flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-12">
         {/* Contact Form */}
-        <div className="md:w-2/3">
+        <div className="md:w-full">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             Contact Us
           </h2>

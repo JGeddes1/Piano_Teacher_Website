@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section
-      className="relative h-full w-full z-0 min-h-[800px]"
+      className="relative h-full w-full z-0 h-screen"
       // Adjust the 4rem to match your navbar height
     >
       {/* Background Video */}
