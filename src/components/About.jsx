@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="relative flex flex-col md:flex-row mt-5 font-playfair bg-gray-50 rounded-lg p-6 md:p-10 shadow-md mx-auto w-5/6">
+    <section className="relative flex flex-col md:flex-row mt-5 font-playfair rounded-lg p-6 md:p-10  mx-auto w-5/6">
       {/* Left: Text Content */}
       <div className="md:w-full space-y-4">
         {/* Logo */}
